@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "skipLibCheck": true,
+    "types": ["node"],
+
+    "outDir": "dist",
+    "declaration": true
+  }
+}

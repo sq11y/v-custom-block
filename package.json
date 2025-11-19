@@ -1,0 +1,27 @@
+{
+  "name": "v-custom-block",
+  "description": "Ignore custom blocks inside Vue components.",
+  "version": "1.0.5",
+  "license": "MIT",
+  "keywords": [
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sq11y/v-custom-block"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2"
+  }
+}
