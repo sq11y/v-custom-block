@@ -1,11 +1,11 @@
-import type { PluginOption } from "vite";
+import type { Plugin } from "vite";
 
 /**
  * Add custom blocks to Vue components.
  *
  * @param {string} tag The tag to be used e.g. docs for <docs /> blocks
  */
-export default (tag: string): PluginOption => ({
+export default (tag: string): Plugin => ({
   name: `${tag}-block`,
   enforce: "pre",
 
